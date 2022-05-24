@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import { connection as sql } from '../db/db';
 import { userIsAdmin, getUniqueId } from '../utils/utils';
 
-export let router = express.Router();
+export const router = express.Router();
 
 // Route to create a channel
 // Expects -> Channel Name

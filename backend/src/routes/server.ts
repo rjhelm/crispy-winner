@@ -3,7 +3,7 @@ let express = require('express');
 import { connection as sql } from '../db/db';
 import { userExists, getUniqueId, userIsAdmin } from '../utils/utils';
 
-export let router = express.Router();
+export const router = express.Router();
 
 // Route to create a server
 // Expects -> Server NAme
